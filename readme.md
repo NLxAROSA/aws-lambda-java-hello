@@ -2,7 +2,7 @@ This is a simple Hello World application for use with AWS Lambda.
 
 Usage:
 
-* Build the JAR using 'gradlew fatJar'
+* Build the JAR using 'gradlew fatJar', this will create a 'aws-lambda-poc-all-1.0-SNAPSHOT.jar' in build/libs
 * Upload the JAR into your AWS Lambda console
 * Use 'io.bymbl.aws.lambda.poc.HelloLambda::myHandler' as handler name.
 * Pick an existing role or create a new one
